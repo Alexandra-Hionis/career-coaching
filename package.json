@@ -1,0 +1,22 @@
+{
+  "name": "career-coaching",
+  "version": "1.0.0",
+  "description": "career and professional development website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexandra-Hionis/career-coaching.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexandra-Hionis/career-coaching/issues"
+  },
+  "homepage": "https://github.com/Alexandra-Hionis/career-coaching#readme",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}
