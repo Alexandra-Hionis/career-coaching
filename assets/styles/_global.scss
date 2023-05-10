@@ -1,11 +1,25 @@
 // Variables
+
+// fonts
 $ovo: "Ovo", serif;
 $montserrat: "Montserrat", sans-serif;
 $lato: "Lato", sans-serif;
+
+// colors
+$light-yellow: #f7f4ef;
+$yellow: #f3ebcf;
+$charcoal: #4d4d4d;
+$blue: #85babd;
+// $blue-gray: #BDC7C6;
+
 // Global Styles
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+}
+
+body {
+  color: $charcoal;
 }
