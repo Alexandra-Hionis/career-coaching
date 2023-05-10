@@ -1,0 +1,55 @@
+.nav {
+  &__menu {
+    background-color: $yellow;
+    display: none;
+    @media screen and (min-width: $tablet) {
+      display: block;
+    }
+    &.open {
+      display: block;
+    }
+  }
+
+  &__menu-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    @media screen and (min-width: $tablet) {
+      flex-direction: row;
+    }
+  }
+  .logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    @media screen and (min-width: $tablet) {
+      justify-content: center;
+    }
+  }
+}
+
+.hamburger {
+  width: 30px;
+  height: 18px;
+  cursor: pointer;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  vertical-align: middle;
+  @media screen and (min-width: $mobile) {
+    margin: 10px;
+  }
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
+  .line {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transition: transform 0.3s ease;
+  }
+}
